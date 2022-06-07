@@ -1,6 +1,4 @@
-function swap(arr,index1,index2){
-    [arr[index1],arr[index2]] = [arr[index2],arr[index1]]
-}
+import swap from './swap.mjs'
 function bubbleSort(arr){
     for(let i =0 ; i <arr.length-1;i++){
         let hasSwap = false
@@ -15,3 +13,4 @@ function bubbleSort(arr){
     }
     return arr
 }
+console.log(bubbleSort([5,4,1,19,10]))
